@@ -51,11 +51,11 @@ const Header = () => {
             {/* Desktop Contact */}
             <div className="hidden md:flex items-center gap-4">
               <a
-                href="tel:+254788957267"
+                href="tel:+254755659443"
                 className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-smooth"
               >
                 <Phone className="w-4 h-4" />
-                <span className="font-medium">+254788957267</span>
+                <span className="font-medium">+254755659443</span>
               </a>
               <Button variant="secondary" size="sm" className="glow-on-hover">
                 Get Quote
@@ -89,12 +89,13 @@ const Header = () => {
                 </a>
               ))}
               <div className="pt-4 border-t border-border">
-                href="tel:+254755659443"
-                className="flex items-center gap-2 text-sm"
-              >
-                <Phone className="h-4 w-4" />
-                <span className="font-medium">+254755659443</span>
-              </Link>
+                <a
+                  href="tel:+254755659443"
+                  className="flex items-center gap-2 text-sm mb-4"
+                >
+                  <Phone className="h-4 w-4" />
+                  <span className="font-medium">+254755659443</span>
+                </a>
                 <Button variant="secondary" size="sm" className="w-full">
                   Get Quote
                 </Button>

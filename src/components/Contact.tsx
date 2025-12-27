@@ -8,16 +8,16 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      content: "+254787429148",
+      content: "0781515889",
       description: "Available 24/7 for orders and inquiries",
-      href: "tel:+254787429148"
+      href: "tel:0781515889"
     },
     {
       icon: MessageCircle,
       title: "WhatsApp",
-      content: "+254787429148",
+      content: "0781515889",
       description: "Quick response via WhatsApp",
-      href: "https://wa.me/254787429148"
+      href: "https://wa.me/254781515889"
     },
     {
       icon: Mail,
@@ -108,7 +108,7 @@ const Contact = () => {
                   variant="accent" 
                   size="lg"
                   className="font-bold"
-                  onClick={() => window.open(`https://wa.me/254787429148?text=${whatsappMessage}`, '_blank')}
+                  onClick={() => window.open(`https://wa.me/254781515889?text=${whatsappMessage}`, '_blank')}
                 >
                   <MessageCircle className="w-5 h-5" />
                   WhatsApp Us
@@ -117,10 +117,10 @@ const Contact = () => {
                   variant="outline" 
                   size="lg"
                   className="bg-white/10 border-white/30 text-white hover:bg-white/20 font-bold backdrop-blur-sm"
-                  onClick={() => window.open('tel:+254787429148')}
+                  onClick={() => window.open('tel:0781515889')}
                 >
                   <Phone className="w-5 h-5" />
-                  Call +254787429148
+                  Call 0781515889
                 </Button>
               </div>
             </div>

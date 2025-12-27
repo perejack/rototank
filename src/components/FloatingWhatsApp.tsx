@@ -22,7 +22,7 @@ const FloatingWhatsApp = () => {
     const message = encodeURIComponent(
       "Hello! I'm interested in your water tanks. Could you help me choose the right one?"
     );
-    window.open(`https://wa.me/254781515889?text=${message}`, '_blank');
+    window.open(`https://wa.me/254787429148?text=${message}`, '_blank');
   };
 
   return (

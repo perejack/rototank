@@ -19,7 +19,7 @@ const Header = () => {
       <div className="bg-primary text-primary-foreground py-2 px-4">
         <div className="container mx-auto flex justify-center items-center gap-2 text-sm font-medium">
           <Phone className="w-4 h-4" />
-          <span>Call us: 0781515889</span>
+          <span>Call us: +254739588226</span>
         </div>
       </div>
 
@@ -51,11 +51,11 @@ const Header = () => {
             {/* Desktop Contact */}
             <div className="hidden md:flex items-center gap-4">
               <a
-                href="tel:0781515889"
+                href="tel:+254739588226"
                 className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-smooth"
               >
                 <Phone className="w-4 h-4" />
-                <span className="font-medium">0781515889</span>
+                <span className="font-medium">+254739588226</span>
               </a>
               <Button variant="secondary" size="sm" className="glow-on-hover">
                 Get Quote
@@ -90,11 +90,11 @@ const Header = () => {
               ))}
               <div className="pt-4 border-t border-border">
                 <a
-                  href="tel:0781515889"
+                  href="tel:+254739588226"
                   className="flex items-center gap-2 text-sm mb-4"
                 >
                   <Phone className="h-4 w-4" />
-                  <span className="font-medium">0781515889</span>
+                  <span className="font-medium">+254739588226</span>
                 </a>
                 <Button variant="secondary" size="sm" className="w-full">
                   Get Quote

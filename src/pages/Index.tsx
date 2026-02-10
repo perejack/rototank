@@ -55,7 +55,7 @@ const Index = () => {
               <h3 className="font-bold text-lg mb-4">Contact Information</h3>
               <div className="space-y-3">
                 <div className="text-primary-foreground/80">
-                  <strong>Phone:</strong> 0781515889
+                  <strong>Phone:</strong> +254739588226
                 </div>
                 <div className="text-primary-foreground/80">
                   <strong>Location:</strong> Nairobi, Kenya

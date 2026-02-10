@@ -44,7 +44,7 @@ const Products = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="secondary" size="lg">
-                Call 0781515889
+                Call +254739588226
               </Button>
               <Button variant="accent" size="lg" className="shadow-accent">
                 Get Free Quote

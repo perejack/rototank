@@ -64,7 +64,7 @@ const Hero = () => {
               size="lg"
               className="bg-white/10 border-white/30 text-white hover:bg-white/20 font-bold px-8 py-4 text-lg backdrop-blur-sm"
             >
-              Call 0781515889
+              Call +254739588226
             </Button>
           </div>
 

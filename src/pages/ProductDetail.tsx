@@ -129,7 +129,7 @@ const ProductDetail = () => {
                     variant="accent" 
                     size="lg" 
                     className="w-full font-bold"
-                    onClick={() => window.open(`https://wa.me/254781515889?text=${whatsappMessage}`, '_blank')}
+                    onClick={() => window.open(`https://wa.me/254739588226?text=${whatsappMessage}`, '_blank')}
                   >
                     <MessageCircle className="w-5 h-5" />
                     Order via WhatsApp
@@ -138,10 +138,10 @@ const ProductDetail = () => {
                     variant="outline" 
                     size="lg"
                     className="w-full bg-white/10 border-white/30 text-white hover:bg-white/20 font-bold backdrop-blur-sm"
-                    onClick={() => window.open('tel:0781515889')}
+                    onClick={() => window.open('tel:+254739588226')}
                   >
                     <Phone className="w-5 h-5" />
-                    Call 0781515889
+                    Call +254739588226
                   </Button>
                 </div>
               </CardContent>

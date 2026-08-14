@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Roto Tank Design System - Industrial Excellence */
+@layer base {
+  :root {
+    /* Brand Colors - Black Industrial Theme */
+    --background: 0 0% 98%;
+    --foreground: 0 0% 8%;
+    
+    /* Brand Primary - Deep Black */
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 0 0% 15%;
+    
+    /* Water Blue Secondary */
+    --secondary: 210 100% 45%;
+    --secondary-foreground: 0 0% 98%;
+    --secondary-light: 210 100% 85%;
+    
+    /* Industrial Accent - Vibrant Orange */
+    --accent: 25 100% 60%;
+    --accent-foreground: 0 0% 8%;
+    --accent-light: 25 100% 95%;
+    
+    /* UI Elements */
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 8%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+    --border: 0 0% 90%;
+    --input: 0 0% 95%;
+    --ring: 210 100% 45%;
+    
+    /* Success & Destructive */
+    --success: 120 60% 50%;
+    --success-foreground: 0 0% 98%;
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 98%;
+    
+    /* Popover */
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 8%;
+    
+    /* Design System Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 0%), hsl(210 100% 25%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(0 0% 96%));
+    --gradient-accent: linear-gradient(135deg, hsl(25 100% 60%), hsl(35 100% 70%));
+    --gradient-secondary: linear-gradient(135deg, hsl(210 100% 45%), hsl(220 100% 55%));
+    
+    /* Shadows */
+    --shadow-elegant: 0 10px 40px -12px hsl(0 0% 0% / 0.25);
+    --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.1);
+    --shadow-glow: 0 0 30px hsl(210 100% 45% / 0.3);
+    --shadow-accent: 0 8px 30px -8px hsl(25 100% 60% / 0.4);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-inter;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .gradient-card {
+    background: var(--gradient-card);
+  }
+  
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+  
+  .gradient-secondary {
+    background: var(--gradient-secondary);
+  }
+  
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+  
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+  
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+  
+  .shadow-accent {
+    box-shadow: var(--shadow-accent);
+  }
+  
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+  
+  .transition-bounce {
+    transition: var(--transition-bounce);
+  }
+  
+  /* Interactive Elements */
+  .hover-lift {
+    @apply transition-smooth hover:-translate-y-2 hover:shadow-elegant;
+  }
+  
+  .hover-scale {
+    @apply transition-smooth hover:scale-105;
+  }
+  
+  .glow-on-hover {
+    @apply transition-smooth hover:shadow-glow;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Utilities: animations */
+@layer utilities {
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.35s ease-out both;
+  }
+}
